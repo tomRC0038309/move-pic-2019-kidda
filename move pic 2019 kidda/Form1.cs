@@ -16,5 +16,15 @@ namespace move_pic_2019_kidda
         {
             InitializeComponent();
         }
+
+        private void DateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            pictureBox1.Location = new Point(pictureBox1.Location.X + 5, pictureBox1.Location.Y);
+        }
     }
 }
