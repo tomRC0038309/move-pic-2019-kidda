@@ -40,6 +40,7 @@ namespace move_pic_2019_kidda
         private void Button4_Click(object sender, EventArgs e)
         {
             pictureBox1.Location = new Point(pictureBox1.Location.X - 5, pictureBox1.Location.X);
+            // moves the picture up
         }
     }
 }
