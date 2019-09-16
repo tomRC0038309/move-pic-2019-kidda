@@ -24,7 +24,7 @@ namespace move_pic_2019_kidda
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            if (pictureBox1.Location.X + 5 < ClientRectangle.Width)
+            if (pictureBox1.Location.X + 5 < ClientRectangle.Width - pictureBox1.Width)
             {
                 pictureBox1.Location = new Point(pictureBox1.Location.X + 5, pictureBox1.Location.Y);
             }
